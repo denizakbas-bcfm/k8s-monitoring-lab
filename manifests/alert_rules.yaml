@@ -1,0 +1,11 @@
+groups:
+  - name: site_alarmlari
+    rules:
+      - alert: WebSiteDown
+        expr: probe_success == 0
+        for: 10s
+        labels:
+          severity: critical
+        annotations:
+          summary: "Web sitesi erişilemiyor!"
+          description: "web-sitem servisi 10 saniyeden uzun süredir HTTP 200 vermiyor."
