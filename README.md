@@ -4,7 +4,7 @@ Bu proje; Minikube üzerinde barındırılan bir web uygulamasına (NGINX), dı�
 
 ---
 
-## 🏛️ Mimari Akış
+Akış
 
 ```text
 [ NGINX Web Service ] (Hedef / Port 80)
